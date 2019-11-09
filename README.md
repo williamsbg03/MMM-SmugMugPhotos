@@ -14,16 +14,16 @@ npm install
 ```
 
 2. Create your magic mirror SmugMug API Key
-⋅⋅⋅https://api.smugmug.com/api/developer/apply
+   https://api.smugmug.com/api/developer/apply
 
-⋅⋅⋅Copy the generated key and secret into your module config
+   Copy the generated key and secret into your module config
 
 3. Create SmugMug OAuth Token
 ```
 cd MMM-SmugMugPhotos
 node smugmug-auth.js
 ```
-⋅⋅⋅Copy the output token and token secret into your module config
+   Copy the output token and token secret into your module config
 
 ### Configuration
 ```javascript
