@@ -4,6 +4,11 @@ Display your photos from SmugMug on MagicMirror
 ### Screenshot
 ![Example Module Screenshot](https://github.com/williamsbg03/MMM-SmugMugPhotos/blob/master/example.jpg?raw=true)
 
+### Acknowledgements
+Much of the presentation logic for this module was directly referenced from the following modules:
+https://github.com/eouia/MMM-GooglePhotos
+https://github.com/darickc/MMM-BackgroundSlideshow
+
 ### Installation
 
 1. Install Module
@@ -32,11 +37,11 @@ Display your photos from SmugMug on MagicMirror
     module: 'MMM-SmugMugPhotos',
     position: 'fullscreen_below',
     config: {
-        refreshInterval: 1000*10,  
-        scanInterval: 1000*60*1440,
-        sort: "random", //'time', 'reverse', 'random'
-        opacity: 1,
-        mode: "hybrid",
+        refreshInterval: 1000*15, // time each photo is displayed in milliseconds (default 15 seconds)
+        scanInterval: 1000*60*1440, // time between photo catalog refreshes (default 24 hours)
+        sort: 'random', //'time', 'reverse', 'random'
+        opacity: 1, // image opacity
+        mode: 'hybrid', // 'cover', 'contain', or 'hybrid' :: hybrid will switch between cover and contain based on image orientation and screen orientation
         transitionImages: true,
         transitionSpeed: '1s'
         user: 'SMUGMUG USER',
