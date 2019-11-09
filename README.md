@@ -6,8 +6,8 @@ Display your photos from SmugMug on MagicMirror
 
 ### Acknowledgements
 Much of the presentation logic for this module was directly referenced from the following modules:
-https://github.com/eouia/MMM-GooglePhotos
-https://github.com/darickc/MMM-BackgroundSlideshow
+https://github.com/eouia/MMM-GooglePhotos  
+https://github.com/darickc/MMM-BackgroundSlideshow  
 
 ### Installation
 
