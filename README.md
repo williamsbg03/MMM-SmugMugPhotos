@@ -2,7 +2,7 @@
 Display your photos from SmugMug on MagicMirror
 
 ### Screenshot
-[[PlaceHolder]]
+![Example Module Screenshot](https://github.com/williamsbg03/MMM-SmugMugPhotos/blob/master/example.jpg?raw=true)
 
 ### Installation
 
