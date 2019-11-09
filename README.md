@@ -7,11 +7,11 @@ Display your photos from SmugMug on MagicMirror
 ### Installation
 
 1. Install Module
-```sh
-git clone https://github.com/williamsbg03/MMM-SmugMugPhotos.git
-cd MMM-SmugMugPhotos
-npm install
-```
+   ```sh
+   git clone https://github.com/williamsbg03/MMM-SmugMugPhotos.git
+   cd MMM-SmugMugPhotos
+   npm install
+   ```
 
 2. Create your magic mirror SmugMug API Key
    https://api.smugmug.com/api/developer/apply
@@ -19,10 +19,10 @@ npm install
    Copy the generated key and secret into your module config
 
 3. Create SmugMug OAuth Token
-```
-cd MMM-SmugMugPhotos
-node smugmug-auth.js
-```
+   ```
+   cd MMM-SmugMugPhotos
+   node smugmug-auth.js
+   ```
    Copy the output token and token secret into your module config
 
 ### Configuration
