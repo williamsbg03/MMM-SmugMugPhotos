@@ -14,6 +14,7 @@ Display your photos from SmugMug on MagicMirror
    ```
 
 2. Create your magic mirror SmugMug API Key
+   
    https://api.smugmug.com/api/developer/apply
 
    Copy the generated key and secret into your module config
