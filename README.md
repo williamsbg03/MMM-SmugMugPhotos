@@ -43,7 +43,7 @@ https://github.com/darickc/MMM-BackgroundSlideshow
         opacity: 1, // image opacity
         mode: 'hybrid', // 'cover', 'contain', or 'hybrid' :: hybrid will switch between cover and contain based on image orientation and screen orientation
         transitionImages: true,
-        transitionSpeed: '1s'
+        transitionSpeed: '1s',
         user: 'SMUGMUG USER',
         apikey: 'SMUGMUG API KEY',
         secret: 'SMUGMUG API KEY SECRET',
@@ -53,7 +53,7 @@ https://github.com/darickc/MMM-BackgroundSlideshow
         nodeNamesBlacklist: ['Excluded Sub Album 1', 'Excluded Sub Album 2'],
         imageSize: 'X4'
     }
-},
+}
 ```
 
 ### Last Tested;
